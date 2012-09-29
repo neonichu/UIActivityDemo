@@ -1,0 +1,6 @@
+[submodule "external/SVWebViewController"]
+	path = external/SVWebViewController
+	url = https://github.com/samvermette/SVWebViewController.git
+[submodule "external/FlattrKit"]
+	path = external/FlattrKit
+	url = https://github.com/neonichu/FlattrKit.git
