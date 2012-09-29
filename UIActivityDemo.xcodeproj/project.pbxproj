@@ -10,12 +10,22 @@
 		8A0119B516175ADD00EF741C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0119B416175ADD00EF741C /* UIKit.framework */; };
 		8A0119B716175ADD00EF741C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0119B616175ADD00EF741C /* Foundation.framework */; };
 		8A0119B916175ADD00EF741C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0119B816175ADD00EF741C /* CoreGraphics.framework */; };
-		8A0119BF16175ADD00EF741C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A0119BD16175ADD00EF741C /* InfoPlist.strings */; };
 		8A0119C116175ADD00EF741C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0119C016175ADD00EF741C /* main.m */; };
 		8A0119C516175ADD00EF741C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0119C416175ADD00EF741C /* AppDelegate.m */; };
 		8A0119C716175ADD00EF741C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0119C616175ADD00EF741C /* Default.png */; };
 		8A0119C916175ADD00EF741C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0119C816175ADD00EF741C /* Default@2x.png */; };
 		8A0119CB16175ADD00EF741C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0119CA16175ADD00EF741C /* Default-568h@2x.png */; };
+		8A0119D816175C6C00EF741C /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8A0119D416175C6C00EF741C /* SVWebViewController.bundle */; };
+		8A0119D916175C6C00EF741C /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0119D616175C6C00EF741C /* SVWebViewController.m */; };
+		8A0119DC16175CB800EF741C /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0119DB16175CB800EF741C /* WebViewController.m */; };
+		8A0119DE1617619F00EF741C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0119DD1617619F00EF741C /* MessageUI.framework */; };
+		8A0119E11617624D00EF741C /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0119E01617624D00EF741C /* SVModalWebViewController.m */; };
+		8A0119E4161762FE00EF741C /* ModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0119E3161762FE00EF741C /* ModalWebViewController.m */; };
+		8A011A00161774A700EF741C /* libFlattrKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0119FF161774A700EF741C /* libFlattrKit.a */; };
+		8A011A02161774BE00EF741C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A011A01161774BE00EF741C /* Security.framework */; };
+		8AA31CAC161792C30060E560 /* FlattrActivityImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA31CAA161792C30060E560 /* FlattrActivityImage.png */; };
+		8AA31CAD161792C30060E560 /* FlattrActivityImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA31CAB161792C30060E560 /* FlattrActivityImage@2x.png */; };
+		8AA31CB0161792D70060E560 /* VUFlattrActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA31CAF161792D70060E560 /* VUFlattrActivity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +34,6 @@
 		8A0119B616175ADD00EF741C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A0119B816175ADD00EF741C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8A0119BC16175ADD00EF741C /* UIActivityDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIActivityDemo-Info.plist"; sourceTree = "<group>"; };
-		8A0119BE16175ADD00EF741C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A0119C016175ADD00EF741C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A0119C216175ADD00EF741C /* UIActivityDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIActivityDemo-Prefix.pch"; sourceTree = "<group>"; };
 		8A0119C316175ADD00EF741C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,6 +41,22 @@
 		8A0119C616175ADD00EF741C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8A0119C816175ADD00EF741C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8A0119CA16175ADD00EF741C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8A0119D416175C6C00EF741C /* SVWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVWebViewController.bundle; path = external/SVWebViewController/SVWebViewController/SVWebViewController.bundle; sourceTree = SOURCE_ROOT; };
+		8A0119D516175C6C00EF741C /* SVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVWebViewController.h; path = external/SVWebViewController/SVWebViewController/SVWebViewController.h; sourceTree = SOURCE_ROOT; };
+		8A0119D616175C6C00EF741C /* SVWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVWebViewController.m; path = external/SVWebViewController/SVWebViewController/SVWebViewController.m; sourceTree = SOURCE_ROOT; };
+		8A0119DA16175CB800EF741C /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		8A0119DB16175CB800EF741C /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		8A0119DD1617619F00EF741C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8A0119DF1617624D00EF741C /* SVModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVModalWebViewController.h; path = external/SVWebViewController/SVWebViewController/SVModalWebViewController.h; sourceTree = SOURCE_ROOT; };
+		8A0119E01617624D00EF741C /* SVModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVModalWebViewController.m; path = external/SVWebViewController/SVWebViewController/SVModalWebViewController.m; sourceTree = SOURCE_ROOT; };
+		8A0119E2161762FE00EF741C /* ModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalWebViewController.h; sourceTree = "<group>"; };
+		8A0119E3161762FE00EF741C /* ModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalWebViewController.m; sourceTree = "<group>"; };
+		8A0119FF161774A700EF741C /* libFlattrKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlattrKit.a; path = lib/libFlattrKit.a; sourceTree = "<group>"; };
+		8A011A01161774BE00EF741C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8AA31CAA161792C30060E560 /* FlattrActivityImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FlattrActivityImage.png; path = external/FlattrKit/FlattrActivityImage.png; sourceTree = SOURCE_ROOT; };
+		8AA31CAB161792C30060E560 /* FlattrActivityImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlattrActivityImage@2x.png"; path = "external/FlattrKit/FlattrActivityImage@2x.png"; sourceTree = SOURCE_ROOT; };
+		8AA31CAE161792D70060E560 /* VUFlattrActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VUFlattrActivity.h; path = external/FlattrKit/FlattrKit/VUFlattrActivity.h; sourceTree = SOURCE_ROOT; };
+		8AA31CAF161792D70060E560 /* VUFlattrActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VUFlattrActivity.m; path = external/FlattrKit/FlattrKit/VUFlattrActivity.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +64,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A011A02161774BE00EF741C /* Security.framework in Frameworks */,
+				8A0119DE1617619F00EF741C /* MessageUI.framework in Frameworks */,
 				8A0119B516175ADD00EF741C /* UIKit.framework in Frameworks */,
 				8A0119B716175ADD00EF741C /* Foundation.framework in Frameworks */,
 				8A0119B916175ADD00EF741C /* CoreGraphics.framework in Frameworks */,
+				8A011A00161774A700EF741C /* libFlattrKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +82,8 @@
 				8A0119BA16175ADD00EF741C /* UIActivityDemo */,
 				8A0119B316175ADD00EF741C /* Frameworks */,
 				8A0119B116175ADD00EF741C /* Products */,
+				8A0119BB16175ADD00EF741C /* Supporting Files */,
+				8A0119D116175C4700EF741C /* Third Party */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,9 +98,12 @@
 		8A0119B316175ADD00EF741C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8A0119B416175ADD00EF741C /* UIKit.framework */,
-				8A0119B616175ADD00EF741C /* Foundation.framework */,
+				8A0119FF161774A700EF741C /* libFlattrKit.a */,
 				8A0119B816175ADD00EF741C /* CoreGraphics.framework */,
+				8A0119B616175ADD00EF741C /* Foundation.framework */,
+				8A0119DD1617619F00EF741C /* MessageUI.framework */,
+				8A011A01161774BE00EF741C /* Security.framework */,
+				8A0119B416175ADD00EF741C /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,7 +113,10 @@
 			children = (
 				8A0119C316175ADD00EF741C /* AppDelegate.h */,
 				8A0119C416175ADD00EF741C /* AppDelegate.m */,
-				8A0119BB16175ADD00EF741C /* Supporting Files */,
+				8A0119E2161762FE00EF741C /* ModalWebViewController.h */,
+				8A0119E3161762FE00EF741C /* ModalWebViewController.m */,
+				8A0119DA16175CB800EF741C /* WebViewController.h */,
+				8A0119DB16175CB800EF741C /* WebViewController.m */,
 			);
 			path = UIActivityDemo;
 			sourceTree = "<group>";
@@ -88,15 +124,48 @@
 		8A0119BB16175ADD00EF741C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8A0119BC16175ADD00EF741C /* UIActivityDemo-Info.plist */,
-				8A0119BD16175ADD00EF741C /* InfoPlist.strings */,
-				8A0119C016175ADD00EF741C /* main.m */,
-				8A0119C216175ADD00EF741C /* UIActivityDemo-Prefix.pch */,
 				8A0119C616175ADD00EF741C /* Default.png */,
 				8A0119C816175ADD00EF741C /* Default@2x.png */,
 				8A0119CA16175ADD00EF741C /* Default-568h@2x.png */,
+				8A0119C016175ADD00EF741C /* main.m */,
+				8A0119BC16175ADD00EF741C /* UIActivityDemo-Info.plist */,
+				8A0119C216175ADD00EF741C /* UIActivityDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = UIActivityDemo;
+			sourceTree = "<group>";
+		};
+		8A0119D116175C4700EF741C /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				8A0119F316176A1A00EF741C /* FlattrKit */,
+				8A0119E5161766BA00EF741C /* SVWebViewController */,
+			);
+			name = "Third Party";
+			path = UIActivityDemo;
+			sourceTree = "<group>";
+		};
+		8A0119E5161766BA00EF741C /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A0119DF1617624D00EF741C /* SVModalWebViewController.h */,
+				8A0119E01617624D00EF741C /* SVModalWebViewController.m */,
+				8A0119D416175C6C00EF741C /* SVWebViewController.bundle */,
+				8A0119D516175C6C00EF741C /* SVWebViewController.h */,
+				8A0119D616175C6C00EF741C /* SVWebViewController.m */,
+			);
+			name = SVWebViewController;
+			sourceTree = "<group>";
+		};
+		8A0119F316176A1A00EF741C /* FlattrKit */ = {
+			isa = PBXGroup;
+			children = (
+				8AA31CAA161792C30060E560 /* FlattrActivityImage.png */,
+				8AA31CAB161792C30060E560 /* FlattrActivityImage@2x.png */,
+				8AA31CAE161792D70060E560 /* VUFlattrActivity.h */,
+				8AA31CAF161792D70060E560 /* VUFlattrActivity.m */,
+			);
+			name = FlattrKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,10 +219,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A0119BF16175ADD00EF741C /* InfoPlist.strings in Resources */,
 				8A0119C716175ADD00EF741C /* Default.png in Resources */,
 				8A0119C916175ADD00EF741C /* Default@2x.png in Resources */,
 				8A0119CB16175ADD00EF741C /* Default-568h@2x.png in Resources */,
+				8A0119D816175C6C00EF741C /* SVWebViewController.bundle in Resources */,
+				8AA31CAC161792C30060E560 /* FlattrActivityImage.png in Resources */,
+				8AA31CAD161792C30060E560 /* FlattrActivityImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,21 +237,15 @@
 			files = (
 				8A0119C116175ADD00EF741C /* main.m in Sources */,
 				8A0119C516175ADD00EF741C /* AppDelegate.m in Sources */,
+				8A0119D916175C6C00EF741C /* SVWebViewController.m in Sources */,
+				8A0119DC16175CB800EF741C /* WebViewController.m in Sources */,
+				8A0119E11617624D00EF741C /* SVModalWebViewController.m in Sources */,
+				8A0119E4161762FE00EF741C /* ModalWebViewController.m in Sources */,
+				8AA31CB0161792D70060E560 /* VUFlattrActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8A0119BD16175ADD00EF741C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A0119BE16175ADD00EF741C /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8A0119CC16175ADD00EF741C /* Debug */ = {
@@ -237,7 +302,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIActivityDemo/UIActivityDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "external/FlattrKit/OAuth2Client/**";
 				INFOPLIST_FILE = "UIActivityDemo/UIActivityDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -248,7 +319,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIActivityDemo/UIActivityDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "external/FlattrKit/OAuth2Client/**";
 				INFOPLIST_FILE = "UIActivityDemo/UIActivityDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -273,6 +350,7 @@
 				8A0119D016175ADD00EF741C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
