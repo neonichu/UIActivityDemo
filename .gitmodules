@@ -4,3 +4,6 @@
 [submodule "external/FlattrKit"]
 	path = external/FlattrKit
 	url = https://github.com/neonichu/FlattrKit.git
+[submodule "external/VUPinboardActivity"]
+	path = external/VUPinboardActivity
+	url = https://github.com/neonichu/VUPinboardActivity.git

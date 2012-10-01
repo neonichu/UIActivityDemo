@@ -7,6 +7,7 @@
 //
 
 #import "VUFlattrActivity.h"
+#import "VUPinboardActivity.h"
 #import "WebViewController.h"
 
 #define SHARE_LINK_ACTION_TITLE     NSLocalizedString(@"Share Link", @"")
@@ -34,7 +35,7 @@
     
     if ([title isEqualToString:SHARE_LINK_ACTION_TITLE]) {
         NSArray* activityItems = @[ self.mainWebView.request.URL ];
-        NSArray* appActivities = @[ [[VUFlattrActivity alloc] init] ];
+        NSArray* appActivities = @[ [[VUFlattrActivity alloc] init], [[VUPinboardActivity alloc] init] ];
         UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:activityItems
                                                                                          applicationActivities:appActivities];
         [self presentViewController:activityController animated:YES completion:nil];

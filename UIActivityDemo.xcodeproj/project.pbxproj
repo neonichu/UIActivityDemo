@@ -23,6 +23,16 @@
 		8A0119E4161762FE00EF741C /* ModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0119E3161762FE00EF741C /* ModalWebViewController.m */; };
 		8A011A00161774A700EF741C /* libFlattrKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0119FF161774A700EF741C /* libFlattrKit.a */; };
 		8A011A02161774BE00EF741C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A011A01161774BE00EF741C /* Security.framework */; };
+		8A58A8D31617B847008A5229 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A58A8D21617B847008A5229 /* QuartzCore.framework */; };
+		8A58A90C16183A33008A5229 /* PinboardActivityImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A58A8FB16183A33008A5229 /* PinboardActivityImage.png */; };
+		8A58A90D16183A33008A5229 /* PinboardActivityImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A58A8FC16183A33008A5229 /* PinboardActivityImage@2x.png */; };
+		8A58A90E16183A33008A5229 /* VUPinboardAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A58A90016183A33008A5229 /* VUPinboardAccess.m */; };
+		8A58A90F16183A33008A5229 /* VUPinboardActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A58A90216183A33008A5229 /* VUPinboardActivity.m */; };
+		8A58A91016183A33008A5229 /* VUPinboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A58A90416183A33008A5229 /* VUPinboardViewController.m */; };
+		8A58A91116183A33008A5229 /* BBNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A58A90716183A33008A5229 /* BBNetworkRequest.m */; };
+		8A58A91216183A33008A5229 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A58A90916183A33008A5229 /* SSKeychain.m */; };
+		8A58A91316183A33008A5229 /* VUGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A58A90B16183A33008A5229 /* VUGradientButton.m */; };
+		8A58A91616183A94008A5229 /* VUDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A58A91516183A94008A5229 /* VUDialogViewController.m */; };
 		8AA31CAC161792C30060E560 /* FlattrActivityImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA31CAA161792C30060E560 /* FlattrActivityImage.png */; };
 		8AA31CAD161792C30060E560 /* FlattrActivityImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA31CAB161792C30060E560 /* FlattrActivityImage@2x.png */; };
 		8AA31CB0161792D70060E560 /* VUFlattrActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA31CAF161792D70060E560 /* VUFlattrActivity.m */; };
@@ -53,6 +63,23 @@
 		8A0119E3161762FE00EF741C /* ModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalWebViewController.m; sourceTree = "<group>"; };
 		8A0119FF161774A700EF741C /* libFlattrKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlattrKit.a; path = lib/libFlattrKit.a; sourceTree = "<group>"; };
 		8A011A01161774BE00EF741C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8A58A8D21617B847008A5229 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8A58A8FB16183A33008A5229 /* PinboardActivityImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinboardActivityImage.png; sourceTree = "<group>"; };
+		8A58A8FC16183A33008A5229 /* PinboardActivityImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PinboardActivityImage@2x.png"; sourceTree = "<group>"; };
+		8A58A8FF16183A33008A5229 /* VUPinboardAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUPinboardAccess.h; sourceTree = "<group>"; };
+		8A58A90016183A33008A5229 /* VUPinboardAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUPinboardAccess.m; sourceTree = "<group>"; };
+		8A58A90116183A33008A5229 /* VUPinboardActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUPinboardActivity.h; sourceTree = "<group>"; };
+		8A58A90216183A33008A5229 /* VUPinboardActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUPinboardActivity.m; sourceTree = "<group>"; };
+		8A58A90316183A33008A5229 /* VUPinboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUPinboardViewController.h; sourceTree = "<group>"; };
+		8A58A90416183A33008A5229 /* VUPinboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUPinboardViewController.m; sourceTree = "<group>"; };
+		8A58A90616183A33008A5229 /* BBNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBNetworkRequest.h; sourceTree = "<group>"; };
+		8A58A90716183A33008A5229 /* BBNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBNetworkRequest.m; sourceTree = "<group>"; };
+		8A58A90816183A33008A5229 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		8A58A90916183A33008A5229 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		8A58A90A16183A33008A5229 /* VUGradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUGradientButton.h; sourceTree = "<group>"; };
+		8A58A90B16183A33008A5229 /* VUGradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUGradientButton.m; sourceTree = "<group>"; };
+		8A58A91416183A94008A5229 /* VUDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUDialogViewController.h; sourceTree = "<group>"; };
+		8A58A91516183A94008A5229 /* VUDialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUDialogViewController.m; sourceTree = "<group>"; };
 		8AA31CAA161792C30060E560 /* FlattrActivityImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FlattrActivityImage.png; path = external/FlattrKit/FlattrActivityImage.png; sourceTree = SOURCE_ROOT; };
 		8AA31CAB161792C30060E560 /* FlattrActivityImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlattrActivityImage@2x.png"; path = "external/FlattrKit/FlattrActivityImage@2x.png"; sourceTree = SOURCE_ROOT; };
 		8AA31CAE161792D70060E560 /* VUFlattrActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VUFlattrActivity.h; path = external/FlattrKit/FlattrKit/VUFlattrActivity.h; sourceTree = SOURCE_ROOT; };
@@ -64,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A58A8D31617B847008A5229 /* QuartzCore.framework in Frameworks */,
 				8A011A02161774BE00EF741C /* Security.framework in Frameworks */,
 				8A0119DE1617619F00EF741C /* MessageUI.framework in Frameworks */,
 				8A0119B516175ADD00EF741C /* UIKit.framework in Frameworks */,
@@ -102,6 +130,7 @@
 				8A0119B816175ADD00EF741C /* CoreGraphics.framework */,
 				8A0119B616175ADD00EF741C /* Foundation.framework */,
 				8A0119DD1617619F00EF741C /* MessageUI.framework */,
+				8A58A8D21617B847008A5229 /* QuartzCore.framework */,
 				8A011A01161774BE00EF741C /* Security.framework */,
 				8A0119B416175ADD00EF741C /* UIKit.framework */,
 			);
@@ -139,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				8A0119F316176A1A00EF741C /* FlattrKit */,
+				8AA31CC41617A1080060E560 /* VUPinboardActivity */,
 				8A0119E5161766BA00EF741C /* SVWebViewController */,
 			);
 			name = "Third Party";
@@ -166,6 +196,62 @@
 				8AA31CAF161792D70060E560 /* VUFlattrActivity.m */,
 			);
 			name = FlattrKit;
+			sourceTree = "<group>";
+		};
+		8A58A8FA16183A33008A5229 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A58A8FB16183A33008A5229 /* PinboardActivityImage.png */,
+				8A58A8FC16183A33008A5229 /* PinboardActivityImage@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A58A8FD16183A33008A5229 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8A58A8FE16183A33008A5229 /* Activity */,
+				8A58A90516183A33008A5229 /* Common */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8A58A8FE16183A33008A5229 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				8A58A8FF16183A33008A5229 /* VUPinboardAccess.h */,
+				8A58A90016183A33008A5229 /* VUPinboardAccess.m */,
+				8A58A90116183A33008A5229 /* VUPinboardActivity.h */,
+				8A58A90216183A33008A5229 /* VUPinboardActivity.m */,
+				8A58A90316183A33008A5229 /* VUPinboardViewController.h */,
+				8A58A90416183A33008A5229 /* VUPinboardViewController.m */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		8A58A90516183A33008A5229 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8A58A90616183A33008A5229 /* BBNetworkRequest.h */,
+				8A58A90716183A33008A5229 /* BBNetworkRequest.m */,
+				8A58A90816183A33008A5229 /* SSKeychain.h */,
+				8A58A90916183A33008A5229 /* SSKeychain.m */,
+				8A58A91416183A94008A5229 /* VUDialogViewController.h */,
+				8A58A91516183A94008A5229 /* VUDialogViewController.m */,
+				8A58A90A16183A33008A5229 /* VUGradientButton.h */,
+				8A58A90B16183A33008A5229 /* VUGradientButton.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8AA31CC41617A1080060E560 /* VUPinboardActivity */ = {
+			isa = PBXGroup;
+			children = (
+				8A58A8FD16183A33008A5229 /* Classes */,
+				8A58A8FA16183A33008A5229 /* Resources */,
+			);
+			name = VUPinboardActivity;
+			path = ../external/VUPinboardActivity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +311,8 @@
 				8A0119D816175C6C00EF741C /* SVWebViewController.bundle in Resources */,
 				8AA31CAC161792C30060E560 /* FlattrActivityImage.png in Resources */,
 				8AA31CAD161792C30060E560 /* FlattrActivityImage@2x.png in Resources */,
+				8A58A90C16183A33008A5229 /* PinboardActivityImage.png in Resources */,
+				8A58A90D16183A33008A5229 /* PinboardActivityImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +330,13 @@
 				8A0119E11617624D00EF741C /* SVModalWebViewController.m in Sources */,
 				8A0119E4161762FE00EF741C /* ModalWebViewController.m in Sources */,
 				8AA31CB0161792D70060E560 /* VUFlattrActivity.m in Sources */,
+				8A58A90E16183A33008A5229 /* VUPinboardAccess.m in Sources */,
+				8A58A90F16183A33008A5229 /* VUPinboardActivity.m in Sources */,
+				8A58A91016183A33008A5229 /* VUPinboardViewController.m in Sources */,
+				8A58A91116183A33008A5229 /* BBNetworkRequest.m in Sources */,
+				8A58A91216183A33008A5229 /* SSKeychain.m in Sources */,
+				8A58A91316183A33008A5229 /* VUGradientButton.m in Sources */,
+				8A58A91616183A94008A5229 /* VUDialogViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
